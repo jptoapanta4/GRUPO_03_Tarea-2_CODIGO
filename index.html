@@ -1,0 +1,515 @@
+<!doctype html>
+
+
+
+<html lang="en-gb" class="no-js">
+  <head>
+    <meta charset="utf-8">
+	<title>JS HTML DOM Avanzado</title>
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">		
+		
+	<!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      
+
+     <!--styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" href="css/etlinefont.css">
+    <link href="css/style.css" type="text/css"  rel="stylesheet"/>
+
+    
+	<body  data-spy="scroll" data-target="#main-menu">
+ 
+  <div id="pageloader">   
+        <div class="loader">
+          <img src="images/progress.gif" alt='loader' />
+        </div>
+   </div>
+
+		<header id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="fa fa-bars"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="clear-toggle"></div>
+							<div id="main-menu" class="collapse scroll navbar-right">
+								<ul class="nav">
+                                
+									<li class="active"> <a href="#home">Inicio</a> </li>
+
+                                    <li> <a href="#introduccion">Animaciones DOM</a> </li>
+									
+									<li> <a href="#about">Eventos DOM</a> </li>
+                                    
+                                    <li> <a href="#history">EventListener DOM </a> </li>
+                                    
+                                    <li> <a href="#works">Node DOM</a> </li>
+                                    
+                                     <li> <a href="#team">Colecciones Dom</a> </li>
+																		
+                                    
+                                    <li> <a href="#testimonials">Lista de Nodos DOM</a></li>
+    
+										
+								</ul>
+							</div><!-- end main-menu -->
+						</div>
+					</div>
+				</div>
+			</header>
+        <section id="home" class="home">
+             <div class="slider-overlay"></div>
+            <div class="flexslider">
+                <ul class="slides scroll">
+                    <li class="first">
+                        <div class="slider-text-wrapper">  
+                            <div class="container">
+                                <div class="big">JS HTML DOM Avanzado </div>          
+                                <div class="small">Aplicación de tecnologías Web<br><br>Nrc: 7383<br><br>Docente: Ing. Juan Galarraga <br><br>Periodo: 202151<br><br>GRUPO 3<br><br>INTEGRANTES:<br><br>David Diaz<br>Jean Toapanta<br>Jerry Tovar</div>
+                            </div>       
+                        </div>
+                        <img src="images/slider/1.jpg" alt="">
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+
+  <section  id="introduccion" class="section">
+    <center><h2>Animaciones DOM</h2><br><br></center>
+       <div class="container">
+
+           <div class="row">
+              
+              <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      
+                      <div class="features-info">
+                         <h4><center>JS HTML DOM Avanzado</center></h4>
+                         <p class="text-justify">Es esencialmente una interfaz de plataforma que proporciona un conjunto estándar de objetos para representar documentos HTML, XHTML y XML, un modelo estándar sobre cómo pueden combinarse dichos objetos, y una interfaz estándar para acceder a ellos y manipularlos. A través del DOM, los programas pueden acceder y modificar el contenido, estructura y estilo de los documentos HTML y XML, que es para lo que se diseñó principalmente.</p>
+                         <img src="images/dom.png" alt='loader' width="100%" height="100%" >
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      <div class="features-info">
+                         <h4><center>Para crear animaciones HTML usando JavaScript. Se necesita:</center></h4>
+                         <p class="text-justify">Una página web básica, Crear un contenedor de animación, Estilo de los elementos, Código de animación, Crea la animación completa usando JavaScripCrea la animación completa usando JavaScrip</p>
+                          <img src="images/htmldom.png" alt='loader' width="100%" height="100%" >
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      
+                      <div class="features-info">
+                          <div class="features-info">
+                         <h4><center>Ejemplo:</center></h4>
+                          <img src="images/dom1.png" alt='loader' width="100%" height="100%" >
+                          <h4><center>Funcionamiento:</center></h4>
+                          <img src="images/1234.png" alt='loader' width="100%" height="100%" >
+
+                      </div>
+                      </div>
+                  </div>
+              </div>
+           </div> 
+       </div> 
+  </section> 
+
+  <section  id="about" class="section">
+       <div class="container">
+           <div class="row">
+              <h2 class="title">Eventos DOM</h2><br><br>
+
+              <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                                        <div class="features-icon">
+                      <i class="fa fa-leaf"></i>
+
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>Reaccionar a los eventos</h4>
+                         <p class="text-justify">Un JavaScript se puede ejecutar cuando ocurre un evento, como cuando un usuario hace clic en un elemento HTML.</p>
+                         <img src="images/JSm.jpg" alt='loader' width="100%" height="100%" >
+                           <p class="text-justify">En este ejemplo, el contenido del h1 elemento cambia cuando un usuario hace clic en él: </p>
+                           <img src="images/JSm1.jpg" alt='loader' width="100%" height="100%" >
+                           <h4>Los eventos onmousedown, onmouseup y onclick</h4>
+                         <p class="text-justify">Las onmousedown, onmouseupy onclicklos acontecimientos son todos partes de un clic del ratón. Primero, cuando se hace clic en un botón del mouse, se activa el evento onmousedown, luego, cuando se suelta el botón del mouse, se activa el evento onmouseup, finalmente,  cuando se completa el clic del mouse, se activa el evento onclick.</p>
+                         <img src="images/24.jpg" alt='loader' width="100%" height="100%" > 
+                      </div>
+                  </div>
+              </div>
+
+
+               <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                   <div class="features-icon">
+                      <i class="fa fa-leaf"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>Atributos de eventos HTML</h4>
+                         <p class="text-justify">Para asignar eventos a elementos HTML, puede utilizar atributos de evento.Ejemplo: Asignar un evento onclick a un elemento de botón:</p>
+                        <img src="images/1.jpg" alt='loader' width="100%" height="100%" ><br><br>
+                        <h4>Asignar eventos usando el DOM HTML</h4>
+                         <p class="text-justify">El DOM HTML le permite asignar eventos a elementos HTML usando JavaScript.Ejemplo: Asignar un evento onclick a un elemento de botón:</p>
+                        <img src="images/23.jpg" alt='loader' width="100%" height="100%" >
+                      </div>
+                  </div>
+              </div>
+ 
+               <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      <div class="features-icon">
+                      <i class="fa fa-leaf"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>Los eventos onload y onunload</h4>
+                         <p class="text-justify">Los eventos onloady onunloadse activan cuando el usuario entra o sale de la página. El onloadevento se puede utilizar para verificar el tipo de navegador del visitante y la versión del navegador, y cargar la versión adecuada de la página web según la información. Los eventos onloady onunloadse pueden utilizar para tratar las cookies.</p>
+                         <img src="images/2.jpg" alt='loader' width="100%" height="100%" >
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                     <div class="features-icon">
+                      <i class="fa fa-leaf"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>Los eventos onmouseover y onmouseout</h4>
+                         <p class="text-justify">Los eventos onmouseover y onmouseout.Los eventos onmouseovery onmouseoutse pueden usar para activar una función cuando el usuario pasa el mouse por encima o fuera de un elemento HTML:</p>
+                         <img src="images/25.jpg" alt='loader' width="100%" height="100%" >
+
+                      </div>
+                  </div>
+              </div>
+
+
+              
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+  </section> 
+  <!--End Features-->
+  
+   
+    <section id="history" class="section parallax">
+		<div class="overlay"></div>
+            <div class="container">
+                
+                 <div class="title-box text-center white">
+                    <h2 class="title">EventListener DOM</h2>
+                   
+                 </div>
+                 
+                     <!-- History Timeline -->
+                    <ul class="timeline list-unstyled">
+                        
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                             <h4 class="text-justify">El método addEventListener(). Ejemplo: Agregue un detector de eventos que se activa cuando un usuario hace clic en un botón:</h4>
+                        </li>
+                        <li class="timeline-item">
+                            <img src="images/26.jpg" alt='loader' width="100%" height="100%" >
+                        </li>                        
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>El addEventListener() método adjunta un controlador de eventos a un elemento sin sobrescribir los controladores de eventos existentes.</h4>
+                            <img src="images/4.jpg" alt='loader' width="100%" height="100%" >
+
+                        </li>
+                        <!-- End Item -->
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Ejemplo. Alerta "¡Hola mundo!" cuando el usuario hace clic en un elemento:</h4>
+                            <img src="images/5.jpg" alt='loader' width="100%" height="100%" >
+                        </li>
+                        <li class="timeline-item">
+                            <h4>El método removeEventListener(). El removeEventListener() método elimina los controladores de eventos que se han adjuntado con el método addEventListener ():</h4>
+                            <img src="images/6.jpg" alt='loader' width="100%" height="100%" >
+
+                        </li>
+                        <!-- End Item -->
+                        
+                         <li class="clear"></li>
+                        
+                        <li class="end-icon fa fa-bookmark"></li>
+                    </ul>
+                   <!-- End History Timeline -->
+                   
+           </div> <!--/.container-->
+	</section>
+   <!--End History-->
+   
+
+    
+    <section id="works" class="section parallax">
+        <div class="overlay"></div>
+            <div class="container">
+                
+                 <div class="title-box text-center white">
+                    <h2 class="title">Node DOM</h2>
+                   
+                 </div>
+                 
+                     <!-- History Timeline -->
+                    <ul class="timeline list-unstyled">
+                        
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                             <p class="text-justify">Con HTML DOM, puede navegar por el árbol de nodos utilizando relaciones de nodos. Nodos DOM De acuerdo con el estándar DOM HTML de W3C, todo en un documento HTML es un nodo.
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="text-justify"> Relaciones de nodo. Los nodos del árbol de nodos tienen una relación jerárquica entre sí. Los términos padre, hijo y hermano se utilizan para describir las relaciones. </h4>
+                              <img src="images/7.jpg" alt='loader' width="100%" height="100%" >
+                        </li>                        
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4 class="text-justify">Nodos raíz DOM. Hay dos propiedades especiales que permiten el acceso al documento completo: document.body - El cuerpo del documento document.documentElement - El documento completo</h4>
+                            <img src="images/8.jpg" alt='loader' width="100%" height="100%" >
+
+                        </li>
+                        <!-- End Item -->
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4 class="text-justify">La propiedad nodeType. La nodeType propiedad es de solo lectura. Devuelve el tipo de nodo.</h4>
+                            <img src="images/9.jpg" alt='loader' width="100%" height="100%" >
+                        </li>
+                        <!-- End Item -->
+                        
+                         <!--History Item -->
+                        <li class="timeline-item">
+                            <h4 class="text-justify">Las propiedades de nodeType más importantes son: </h4>
+                            <img src="images/10.jpg" alt='loader' width="100%" height="100%" >
+
+                        </li>
+                        <!-- End Item -->
+                          <li class="timeline-item">
+                            <h4 class="text-justify">Nodos secundarios y valores de nodo: Un error común en el procesamiento de DOM es esperar que un nodo de elemento contenga texto. </h4>
+                            <img src="images/11.jpg" alt='loader' width="100%" height="100%" >
+
+                         <li class="clear"></li>
+                        
+                        <li class="end-icon fa fa-bookmark"></li>
+                    </ul>
+                   <!-- End History Timeline -->
+                   
+           </div> <!--/.container-->
+    </section>
+   
+   
+    
+  <!--Start Team-->
+  <section id="team" class="section">
+		<div class="container">
+            <div class="row">
+                    
+             <div class="title-box text-center">
+                <h2 class="title">Colecciones DOM</h2>
+             </div>
+              
+             </div>
+	
+				<div class="team-items team-carousel">
+                    
+                      <div class="item">
+                          <img src="images/13.jpg" alt=""  />
+                          <h4>El objeto HTMLCollection</h4>
+                          <p class="text-justify"> El objeto HTMLCollection. El getElementsByTagName()método devuelve un HTMLCollectionobjeto. Un HTMLCollectionobjeto es una lista (colección) parecida a una matriz de elementos HTML. El siguiente código selecciona todos los elementos de un documento:</p>
+                          
+                          <div class="socials">
+                         
+                          </div>
+                      </div>
+                      
+                      <div class="item">
+                          <img src="images/14.jpg" alt=""  />
+                          <h4>Longitud de la colección HTML HTMLC</h4>
+                          <p class="text-justify">La lengthpropiedad define el número de elementos en un HTMLCollection, La lengthpropiedad es útil cuando desea recorrer los elementos de una colección  </p>
+                          
+                          <div class="socials">
+                           
+                          </div>
+                      </div>
+                     
+                      <div class="item">
+                          <img src="images/15.jpg" alt=""  />
+                          <h4>Ejemplo</h4>
+                          <p class="text-justify">Cambie el color del texto de todos los elementos p: </p>
+                          
+                          <div class="socials">
+                           
+                          </div>
+                      </div>
+                    
+				</div>
+                <!-- End Team -->
+			</div>
+            <!-- End Content -->
+	</section>
+  <!--End Team-->
+
+ 
+          
+ 
+     <!--Start Why Choose us-->
+  <section id="testimonials" class="section">
+       <div class="container">
+           <div class="row">
+           
+                 <div class="title-box text-center">
+                    <b><h1 style="color:white;"><center>Lista de Nodos DOM</center></h1>
+                 </div>
+              
+        
+            
+           <center><!--Start Accordion-->
+            <div class="col-md-6">
+               <div class="panel-group accordion-main" id="accordion">
+                       <!--About accordion #1-->
+				       <div class="panel">
+                           <div class="panel-heading collapsed" data-toggle="collapse"
+                            data-parent="#accordion" data-target="#collapseOne">
+                          <h6 class="panel-title accordion-toggle">
+                             El objeto HTML DOM NodeList 
+                          </h6>
+                        </div>
+					<div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p class="text-justify">Un NodeListobjeto es una lista (colección) de nodos extraídos de un documento.Un NodeListobjeto es casi lo mismo que un HTMLCollectionobjeto.
+
+                            </p>
+                            <img src="images/20.jpg" alt=""  />
+                                
+                        </div>
+					</div>
+				  </div>
+                  
+                  <!--About accordion #2-->
+				  <div class="panel">
+                       <div class="panel-heading collapsed" data-toggle="collapse"
+                        data-parent="#accordion" data-target="#collapseTwo">
+                      <h6 class="panel-title accordion-toggle">
+                          Longitud de la lista de nodos HTML DOM
+                      </h6>
+                       </div>
+					<div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p class="text-justify">La lengthpropiedad define el número de nodos en una lista de nodos:
+
+                            </p>
+                            <img src="images/21.jpg" alt=""  />
+                        </div>
+					</div>
+				  </div>
+
+                 <!--About accordion #3-->
+				  <div class="panel">
+                      <div class="panel-heading collapsed" data-toggle="collapse"
+                            data-parent="#accordion" data-target="#collapseThree">
+                          <h6 class="panel-title accordion-toggle">
+                              La diferencia entre una colección HTMLCollection y NodeList
+                          </h6>
+                        </div>
+					<div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p class="text-justify">Tanto un objeto HTMLCollection como un objeto NodeList son una lista (colección) de objetos similar a una matriz. Ambos tienen una propiedad de longitud que define el número de elementos de la lista (colección).
+                            </p>
+                             <img src="images/22.jpg" alt=""  />   
+                        </div>
+					</div>
+				  </div>
+
+				</div>
+            </div>
+            <!--End Accordion-->
+           </center>    
+           </div> <!--/.row-->
+       </div> <!--/.container-->
+  </section>
+  <!--End Why Choose us-->
+
+
+  
+   
+   <!--Start Footer-->
+   <footer>
+       <div class="container">
+           <div class="row">
+               <!--Start copyright-->
+               <div class="col-md-6 col-sm-6 col-xs-6">
+                   <div class="copyright"><p>Copyright © 2021 All Rights reserved by: DJJ
+                 </p></div>
+               </div>
+               <!--End copyright-->
+               
+               <!--start social icons-->
+               <div class="col-md-6 col-sm-6 col-xs-6">
+                   <div class="social-icons">
+                       <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                       </ul>
+                    </div>
+               </div>
+               <!--End social icons-->
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+   </footer>
+   <!--End Footer-->
+
+   <a href="#" class="scrollup"> <i class="fa fa-chevron-up"> </i> </a>
+
+    <!--Plugins-->
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    
+ </body>
+</html>
+
